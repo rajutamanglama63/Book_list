@@ -1,0 +1,77 @@
+/* layout */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 49);
+    font-family: Verdana, sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.adding-container{
+    width: 95%;
+    margin: 0 auto;
+    padding-top: .5rem;
+    background-color: rgb(1, 1, 88);
+}
+form{
+    text-align: center;
+}
+.entry-field{
+    padding: .5rem;
+    width: 50%;
+    margin-bottom: .5rem;
+}
+.add-btn{
+    padding: .5rem;
+    margin-bottom: 1rem;
+    width: 53.5%;
+    background-color: #707070;
+    color: beige;
+    border: 0;
+}
+.add-btn:hover{
+    background-color: rgb(183, 210, 233);
+    color: black;
+}
+.list-container{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: .5rem;
+    padding-bottom: 1rem;
+    background-color: rgb(1, 1, 88);
+}
+.book-item{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    padding: .5rem;
+    margin: 1rem;
+}
+.btn-tog{
+    margin-right: .5rem;
+    background-color: rgb(182, 64, 182);
+    color: beige;
+    border: 0;
+}
+.btn-tog:hover{
+    background-color: rgb(138, 116, 138);
+    color: black;
+}
+.btn-del{
+    background-color: rgb(252, 35, 35);
+    color: beige;
+    border: 0;
+}
+.btn-del:hover{
+    background-color: rgb(228, 152, 152);
+    columns: black;
+}
+/* typography */
+h1{
+    text-align: center;
+    color: white;
+}
+h2{
+    padding: 1rem;
+    color: white;
+}
